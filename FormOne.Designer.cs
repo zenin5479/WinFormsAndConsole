@@ -78,7 +78,7 @@
          Controls.Add(txtInput);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-         Text = "Console в WinForms";
+         Text = "WinForms с консольными расчётами";
          ResumeLayout(false);
          PerformLayout();
       }
