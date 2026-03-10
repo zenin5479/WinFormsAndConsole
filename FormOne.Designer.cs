@@ -28,19 +28,66 @@
       /// </summary>
       private void InitializeComponent()
       {
+         lblResult = new System.Windows.Forms.Label();
+         btnCalculate = new System.Windows.Forms.Button();
+         txtResult = new System.Windows.Forms.TextBox();
+         txtInput = new System.Windows.Forms.TextBox();
          SuspendLayout();
+         // 
+         // lblResult
+         // 
+         lblResult.AutoSize = true;
+         lblResult.Location = new System.Drawing.Point(12, 67);
+         lblResult.Name = "lblResult";
+         lblResult.Size = new System.Drawing.Size(63, 15);
+         lblResult.TabIndex = 7;
+         lblResult.Text = "Результат:";
+         // 
+         // btnCalculate
+         // 
+         btnCalculate.Location = new System.Drawing.Point(12, 41);
+         btnCalculate.Name = "btnCalculate";
+         btnCalculate.Size = new System.Drawing.Size(100, 23);
+         btnCalculate.TabIndex = 6;
+         btnCalculate.Text = "Рассчитать";
+         btnCalculate.UseVisualStyleBackColor = true;
+         // 
+         // txtResult
+         // 
+         txtResult.Location = new System.Drawing.Point(12, 85);
+         txtResult.Name = "txtResult";
+         txtResult.Size = new System.Drawing.Size(250, 23);
+         txtResult.TabIndex = 5;
+         // 
+         // txtInput
+         // 
+         txtInput.Location = new System.Drawing.Point(12, 12);
+         txtInput.Name = "txtInput";
+         txtInput.PlaceholderText = "Введите число...";
+         txtInput.Size = new System.Drawing.Size(200, 23);
+         txtInput.TabIndex = 4;
          // 
          // FormOne
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(484, 361);
+         Controls.Add(lblResult);
+         Controls.Add(btnCalculate);
+         Controls.Add(txtResult);
+         Controls.Add(txtInput);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Console в WinForms";
          ResumeLayout(false);
+         PerformLayout();
       }
 
       #endregion
+
+      private System.Windows.Forms.Label lblResult;
+      private System.Windows.Forms.Button btnCalculate;
+      private System.Windows.Forms.TextBox txtResult;
+      private System.Windows.Forms.TextBox txtInput;
    }
 }
