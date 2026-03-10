@@ -36,7 +36,7 @@
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(800, 450);
          Name = "Form1";
-         Text = "Console в WinForms ";
+         Text = "Console в WinForms";
          ResumeLayout(false);
       }
 
