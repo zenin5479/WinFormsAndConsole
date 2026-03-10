@@ -63,6 +63,11 @@ namespace WinFormsAndConsole
             Console.WriteLine("Ошибка: {0}", ex.Message);
             result = double.NaN;
          }
+         finally
+         {
+            // Освобождаем консоль
+            FreeConsole();
+         }
 
          return result;
       }
