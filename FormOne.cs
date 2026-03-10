@@ -17,7 +17,7 @@ namespace WinFormsAndConsole
          InitializeComponent();
       }
 
-      private void btnCalculate_Click(object sender, System.EventArgs e)
+      private void btnCalculate_Click(object sender, EventArgs e)
       {
          // Проверка ввода
          if (!double.TryParse(txtInput.Text, out double inputValue))
@@ -62,11 +62,6 @@ namespace WinFormsAndConsole
          {
             Console.WriteLine("Ошибка: {0}", ex.Message);
             result = double.NaN;
-         }
-         finally
-         {
-            // Освобождаем консоль
-            //FreeConsole();
          }
 
          return result;
