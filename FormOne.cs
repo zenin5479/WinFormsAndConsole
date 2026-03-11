@@ -54,6 +54,16 @@ namespace WinFormsAndConsole
 
             Console.WriteLine("Корень квадратный из {0} = {1:F4}", input, sqrt);
             Console.WriteLine("(Корень квадратный из {0} в кубе = {1:F4}", input, result);
+
+            long factorial = 1;
+            for (int i = 2; i <= number; i++)
+               factorial *= i;
+
+            string resultMessage = $"Факториал числа {number} равен {factorial}.";
+            Console.WriteLine(resultMessage);
+            Console.WriteLine("Нажмите Enter для закрытия консоли и возврата в форму...");
+
+
             Console.WriteLine("Расчёт завершён!");
             //Console.Write("Нажмите любую клавишу для продолжения...");
             //Console.ReadKey();
