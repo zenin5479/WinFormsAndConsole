@@ -34,7 +34,7 @@ namespace WinFormsAndConsole
          txtResult.Text = result.ToString("F4");
       }
 
-      private static double CalculateWithConsole(double input)
+      private double CalculateWithConsole(double input)
       {
          double result;
 
