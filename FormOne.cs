@@ -58,6 +58,7 @@ namespace WinFormsAndConsole
             Console.Write("Enter a Number : ");
             int number = int.Parse(Console.ReadLine());
 
+            long factorial = 1;
             int factorial = 1;
             for (int i = 1; i <= number; i++)
             {
@@ -68,7 +69,7 @@ namespace WinFormsAndConsole
             Console.ReadLine();
 
 
-            long factorial = 1;
+
             for (int i = 2; i <= input; i++)
             {
                factorial *= i;
