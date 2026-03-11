@@ -60,10 +60,10 @@ namespace WinFormsAndConsole
            
 
             long factorial = 1;
-            for (int i = 2; i <= number; i++)
+            for (int i = 2; i <= input; i++)
                factorial *= i;
 
-            string resultMessage = $"Факториал числа {number} равен {factorial}.";
+            string resultMessage = $"Факториал числа {input} равен {factorial}.";
             Console.WriteLine(resultMessage);
             Console.WriteLine("Нажмите Enter для закрытия консоли и возврата в форму...");
 
