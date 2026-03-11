@@ -63,7 +63,6 @@ namespace WinFormsAndConsole
 
             string resultMessage = string.Format("Факториал числа {0} равен {1}.", input, factorial);
             Console.WriteLine(resultMessage);
-            Console.WriteLine("Нажмите Enter для закрытия консоли и возврата в форму...");
 
 
             Console.WriteLine("Расчёт завершён!");
