@@ -57,11 +57,7 @@ namespace WinFormsAndConsole
 
             Console.WriteLine("Введите целое неотрицательное число для вычисления факториала:");
 
-            if (!int.TryParse(input, out int number) || number < 0)
-            {
-               Console.WriteLine("Некорректный ввод. Будет использовано значение 0.");
-               number = 0;
-            }
+           
 
             long factorial = 1;
             for (int i = 2; i <= number; i++)
