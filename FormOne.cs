@@ -55,6 +55,19 @@ namespace WinFormsAndConsole
             Console.WriteLine("Корень квадратный из {0} = {1:F4}", input, sqrt);
             Console.WriteLine("(Корень квадратный из {0} в кубе = {1:F4}", input, result);
 
+            Console.Write("Enter a Number : ");
+            int number = int.Parse(Console.ReadLine());
+
+            int factorial = 1;
+            for (int i = 1; i <= number; i++)
+            {
+               factorial = factorial * i;
+            }
+            Console.Write($"Factorial of {number}  is: {factorial}");
+
+            Console.ReadLine();
+
+
             long factorial = 1;
             for (int i = 2; i <= input; i++)
             {
