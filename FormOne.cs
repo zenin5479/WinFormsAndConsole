@@ -44,7 +44,7 @@ namespace WinFormsAndConsole
          try
          {
             Console.Clear();
-            Console.WriteLine("=== Консоль расчётовРАСЧЁТОВ ===");
+            Console.WriteLine("=== Консоль расчётов ===");
             Console.WriteLine("Получено значение: {0}", input);
             Console.WriteLine("Выполняем вычисления...");
 
