@@ -36,40 +36,26 @@ namespace WinFormsAndConsole
 
       private double CalculateWithConsole(double input)
       {
-         double result;
-
          // Выделяем консоль
          AllocConsole();
-
-         try
+         // Бесконечный цикл в главном потоке
+         while (true)
          {
-            Console.Clear();
-            Console.WriteLine("=== Консоль расчётов ===");
-            Console.WriteLine("Получено значение: {0}", input);
-            Console.WriteLine("Выполняем вычисления...");
+            // Выполняем расчёт (квадрат числа)
+            int i = 3;
+            double result = input * i;
 
-            // Пример расчёта: вычисляем квадратный корень и возводим в куб
-            double sqrt = Math.Sqrt(input);
-            result = Math.Pow(sqrt, 3);
+            // Формируем строку результата
+            string resultText = string.Format("Число: {0}, Квадрат: {1}, Время: {2:HH:mm:ss}", input, result, DateTime.Now);
 
-            Console.WriteLine("Корень квадратный из {0} = {1:F4}", input, sqrt);
-            Console.WriteLine("(Корень квадратный из {0} в кубе = {1:F4}", input, result);
-            Console.WriteLine("Расчёт завершён!");
-            Console.Write("Нажмите любую клавишу для продолжения...");
-            Console.ReadKey();
-         }
-         catch (Exception ex)
-         {
-            Console.WriteLine("Ошибка: {0}", ex.Message);
-            result = double.NaN;
-         }
-         finally
-         {
-            // Освобождаем консоль
-            FreeConsole();
+            // Выводим в консоль
+            Console.WriteLine("Результат: {0}", resultText);
+            i++;
+            return result;
          }
 
-         return result;
+         // Освобождаем консоль
+         FreeConsole();
       }
    }
 }
