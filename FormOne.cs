@@ -63,11 +63,7 @@ namespace WinFormsAndConsole
                Console.WriteLine("(Корень квадратный из {0} в кубе = {1:F4}", input, result);
 
                Console.WriteLine("Расчёт завершён!");
-
                Console.WriteLine("Итерация №{0}", iterationCount);
-
-
-
                Console.WriteLine();
                //Console.Write("Нажмите любую клавишу для продолжения...");
                //Console.ReadKey();
