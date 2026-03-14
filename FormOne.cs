@@ -41,8 +41,6 @@ namespace WinFormsAndConsole
          // Выделяем консоль
          AllocConsole();
 
-
-
          while (true)
          {
             int i = 0;
@@ -61,8 +59,10 @@ namespace WinFormsAndConsole
                Console.WriteLine("(Корень квадратный из {0} в кубе = {1:F4}", input, result);
 
                Console.WriteLine("Расчёт завершён!");
-               Console.Write("Нажмите любую клавишу для продолжения...");
-               Console.ReadKey();
+
+               Console.WriteLine();
+               //Console.Write("Нажмите любую клавишу для продолжения...");
+               //Console.ReadKey();
             }
             catch (Exception ex)
             {
@@ -72,14 +72,11 @@ namespace WinFormsAndConsole
             finally
             {
                // Освобождаем консоль
-               FreeConsole();
+               //FreeConsole();
             }
-
 
             return result;
          }
-
-
       }
    }
 }
