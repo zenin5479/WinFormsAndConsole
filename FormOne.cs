@@ -41,13 +41,6 @@ namespace WinFormsAndConsole
          // Выделяем консоль
          AllocConsole();
 
-         while (true)
-         {
-
-
-
-         }
-
          // Счётчик итераций
          int iterationCount = 0;
 
