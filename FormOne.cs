@@ -41,7 +41,7 @@ namespace WinFormsAndConsole
          // Выделяем консоль
          AllocConsole();
          
-         while (true) // Бесконечный цикл
+         while (true) 
          {
             iterationCount++; // Увеличиваем счётчик на каждой итерации
 
@@ -53,6 +53,7 @@ namespace WinFormsAndConsole
          // Счётчик итераций
          int iterationCount = 0;
 
+         // Бесконечный цикл
          while (true)
          {
             try
