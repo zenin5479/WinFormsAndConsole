@@ -45,9 +45,7 @@ namespace WinFormsAndConsole
          {
 
 
-            Console.WriteLine($"Итерация №{iterationCount}");
-
-            // Здесь можно разместить любую логику, выполняемую на каждой итерации
+           
          }
 
          // Счётчик итераций
@@ -73,6 +71,10 @@ namespace WinFormsAndConsole
                Console.WriteLine("(Корень квадратный из {0} в кубе = {1:F4}", input, result);
 
                Console.WriteLine("Расчёт завершён!");
+
+ Console.WriteLine($"Итерация №{iterationCount}");
+
+            // Здесь можно разместить любую логику, выполняемую на каждой итерации
 
                Console.WriteLine();
                //Console.Write("Нажмите любую клавишу для продолжения...");
