@@ -40,9 +40,7 @@ namespace WinFormsAndConsole
 
          // Выделяем консоль
          AllocConsole();
-
-         int iterationCount = 0; // Счётчик итераций
-
+         
          while (true) // Бесконечный цикл
          {
             iterationCount++; // Увеличиваем счётчик на каждой итерации
@@ -52,6 +50,8 @@ namespace WinFormsAndConsole
             // Здесь можно разместить любую логику, выполняемую на каждой итерации
          }
 
+         // Счётчик итераций
+         int iterationCount = 0;
 
          while (true)
          {
