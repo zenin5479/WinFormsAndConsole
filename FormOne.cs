@@ -73,10 +73,6 @@ namespace WinFormsAndConsole
 
             return result;
          }
-
-
-         
-
       }
    }
 }
