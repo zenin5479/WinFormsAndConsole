@@ -36,8 +36,6 @@ namespace WinFormsAndConsole
 
       private double CalculateWithConsole(double input)
       {
-         double result;
-
          // Выделяем консоль
          AllocConsole();
 
@@ -47,6 +45,7 @@ namespace WinFormsAndConsole
          // Бесконечный цикл
          while (true)
          {
+            double result;
             try
             {
                // Увеличиваем счётчик на каждой итерации
