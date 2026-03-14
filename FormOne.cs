@@ -41,8 +41,11 @@ namespace WinFormsAndConsole
          // Выделяем консоль
          AllocConsole();
 
+
+
          while (true)
          {
+            int i = 0;
             try
             {
                Console.Clear();
@@ -53,9 +56,10 @@ namespace WinFormsAndConsole
                // Пример расчёта: вычисляем квадратный корень и возводим в куб
                double sqrt = Math.Sqrt(input);
                result = Math.Pow(sqrt, 3);
-
+               i++;
                Console.WriteLine("Корень квадратный из {0} = {1:F4}", input, sqrt);
                Console.WriteLine("(Корень квадратный из {0} в кубе = {1:F4}", input, result);
+
                Console.WriteLine("Расчёт завершён!");
                Console.Write("Нажмите любую клавишу для продолжения...");
                Console.ReadKey();
@@ -71,8 +75,11 @@ namespace WinFormsAndConsole
                FreeConsole();
             }
 
+
             return result;
          }
+
+
       }
    }
 }
