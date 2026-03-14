@@ -76,14 +76,7 @@ namespace WinFormsAndConsole
          }
 
 
-         try
-         {
-
-         }
-         catch (Exception ex)
-         {
-
-         }
+         
 
       }
    }
