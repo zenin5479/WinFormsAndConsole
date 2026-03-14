@@ -41,6 +41,18 @@ namespace WinFormsAndConsole
          // Выделяем консоль
          AllocConsole();
 
+         int iterationCount = 0; // Счётчик итераций
+
+         while (true) // Бесконечный цикл
+         {
+            iterationCount++; // Увеличиваем счётчик на каждой итерации
+
+            Console.WriteLine($"Итерация №{iterationCount}");
+
+            // Здесь можно разместить любую логику, выполняемую на каждой итерации
+         }
+
+
          while (true)
          {
             int i = 0;
