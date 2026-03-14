@@ -68,11 +68,10 @@ namespace WinFormsAndConsole
             finally
             {
                // Освобождаем консоль
-               //FreeConsole();
+               FreeConsole();
             }
 
             return result;
-
          }
 
 
