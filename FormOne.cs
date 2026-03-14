@@ -57,8 +57,8 @@ namespace WinFormsAndConsole
                Console.WriteLine("Корень квадратный из {0} = {1:F4}", input, sqrt);
                Console.WriteLine("(Корень квадратный из {0} в кубе = {1:F4}", input, result);
                Console.WriteLine("Расчёт завершён!");
-               //Console.Write("Нажмите любую клавишу для продолжения...");
-               //Console.ReadKey();
+               Console.Write("Нажмите любую клавишу для продолжения...");
+               Console.ReadKey();
             }
             catch (Exception ex)
             {
