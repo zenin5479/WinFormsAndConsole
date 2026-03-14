@@ -63,8 +63,16 @@ namespace WinFormsAndConsole
             catch (Exception ex)
             {
                Console.WriteLine("Ошибка: {0}", ex.Message);
-            result = double.NaN;
+               result = double.NaN;
             }
+            finally
+            {
+               // Освобождаем консоль
+               //FreeConsole();
+            }
+
+            return result;
+
          }
 
 
@@ -74,15 +82,9 @@ namespace WinFormsAndConsole
          }
          catch (Exception ex)
          {
-            
-         }
-         finally
-         {
-            // Освобождаем консоль
-            //FreeConsole();
+
          }
 
-         return result;
       }
 
       public void Start()
