@@ -62,7 +62,8 @@ namespace WinFormsAndConsole
             }
             catch (Exception ex)
             {
-               
+               Console.WriteLine("Ошибка: {0}", ex.Message);
+            result = double.NaN;
             }
          }
 
@@ -73,8 +74,7 @@ namespace WinFormsAndConsole
          }
          catch (Exception ex)
          {
-            Console.WriteLine("Ошибка: {0}", ex.Message);
-            result = double.NaN;
+            
          }
          finally
          {
