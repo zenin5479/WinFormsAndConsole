@@ -43,7 +43,7 @@ namespace WinFormsAndConsole
          
          while (true) 
          {
-            iterationCount++; // Увеличиваем счётчик на каждой итерации
+           // Увеличиваем счётчик на каждой итерации
 
             Console.WriteLine($"Итерация №{iterationCount}");
 
@@ -57,7 +57,8 @@ namespace WinFormsAndConsole
          while (true)
          {
             try
-            {
+            { 
+               iterationCount++; 
                Console.Clear();
                Console.WriteLine("=== КОНСОЛЬ РАСЧЁТОВ ===");
                Console.WriteLine("Получено значение: {0}", input);
