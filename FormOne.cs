@@ -55,7 +55,6 @@ namespace WinFormsAndConsole
 
          while (true)
          {
-            int i = 0;
             try
             {
                Console.Clear();
