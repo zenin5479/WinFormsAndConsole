@@ -45,7 +45,7 @@ namespace WinFormsAndConsole
          {
 
 
-           
+
          }
 
          // Счётчик итераций
@@ -59,6 +59,7 @@ namespace WinFormsAndConsole
                // Увеличиваем счётчик на каждой итерации
                iterationCount++;
                Console.Clear();
+               // Здесь можно разместить любую логику, выполняемую на каждой итерации
                Console.WriteLine("=== КОНСОЛЬ РАСЧЁТОВ ===");
                Console.WriteLine("Получено значение: {0}", input);
                Console.WriteLine("Выполняем вычисления...");
@@ -72,9 +73,9 @@ namespace WinFormsAndConsole
 
                Console.WriteLine("Расчёт завершён!");
 
- Console.WriteLine($"Итерация №{iterationCount}");
+               Console.WriteLine("Итерация №{0}", iterationCount);
 
-            // Здесь можно разместить любую логику, выполняемую на каждой итерации
+
 
                Console.WriteLine();
                //Console.Write("Нажмите любую клавишу для продолжения...");
