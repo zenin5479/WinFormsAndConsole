@@ -40,10 +40,10 @@ namespace WinFormsAndConsole
 
          // Выделяем консоль
          AllocConsole();
-         
-         while (true) 
+
+         while (true)
          {
-           // Увеличиваем счётчик на каждой итерации
+
 
             Console.WriteLine($"Итерация №{iterationCount}");
 
@@ -57,8 +57,9 @@ namespace WinFormsAndConsole
          while (true)
          {
             try
-            { 
-               iterationCount++; 
+            {
+               // Увеличиваем счётчик на каждой итерации
+               iterationCount++;
                Console.Clear();
                Console.WriteLine("=== КОНСОЛЬ РАСЧЁТОВ ===");
                Console.WriteLine("Получено значение: {0}", input);
