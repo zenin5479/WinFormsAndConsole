@@ -29,10 +29,7 @@ namespace WinFormsAndConsole
 
          // Выполняем расчёт с использованием консоли
          //double result = CalculateWithConsole(inputValue);
-         result = CalculateConsole(inputValue);
-
-         // Обновляем интерфейс с результатом
-         txtResult.Text = result.ToString("F4");
+         CalculateConsole(inputValue);
       }
 
       private int CalculateConsole(double input)
