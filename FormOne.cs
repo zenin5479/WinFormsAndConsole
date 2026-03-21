@@ -61,10 +61,10 @@ namespace WinFormsAndConsole
       {
          // Логика обработки
          Console.WriteLine("Обрабатываем значение: {0}", value);
-         string uyy = value.ToString("F4");
+         string Result = value.ToString("F4");
 
          // Обновляем интерфейс с результатом
-         txtResult.Text = uyy;
+         txtResult.Text = Result;
 
          // Проверка на четность
          if (value % 2 == 0)
