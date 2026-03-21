@@ -55,12 +55,12 @@ namespace WinFormsAndConsole
             ProcessResult(iteration);
 
             // Здесь можно разместить любую логику, выполняемую на каждой итерации
-            return iteration;
+            //return iteration;
          }
       }
 
       // Метод обработки результата
-      private static void ProcessResult(double value)
+      private static void ProcessResult(int value)
       {
          // Логика обработки
          Console.WriteLine("Обрабатываем значение: {0}", value);
