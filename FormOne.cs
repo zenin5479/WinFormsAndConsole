@@ -40,7 +40,8 @@ namespace WinFormsAndConsole
          // Выделяем консоль
          AllocConsole();
 
-         int iterationCount = 0; // Счётчик итераций
+         // Счётчик итераций
+         int iterationCount = 0; 
 
          while (true) // Бесконечный цикл
          {
