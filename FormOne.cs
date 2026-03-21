@@ -65,6 +65,9 @@ namespace WinFormsAndConsole
          // Логика обработки
          Console.WriteLine("Обрабатываем значение: {0}", value);
 
+         // Обновляем интерфейс с результатом
+         txtResult.Text = result.ToString("F4");
+
          // Проверка на четность
          if (value % 2 == 0)
          {
