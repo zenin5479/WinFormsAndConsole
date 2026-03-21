@@ -61,9 +61,6 @@ namespace WinFormsAndConsole
       {
          // Логика обработки
          Console.WriteLine("Обрабатываем значение: {0}", value);
-
-        
-
          string uyy = value.ToString("F4");
 
          // Обновляем интерфейс с результатом
