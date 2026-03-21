@@ -52,7 +52,7 @@ namespace WinFormsAndConsole
             Console.WriteLine("Итерация №{0}", iteration);
 
             // Передаем результат в другой метод
-            ProcessResult(result);
+            ProcessResult(iteration);
 
             // Здесь можно разместить любую логику, выполняемую на каждой итерации
             return iteration;
