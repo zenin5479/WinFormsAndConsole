@@ -46,7 +46,8 @@ namespace WinFormsAndConsole
          // Бесконечный цикл
          while (true)
          {
-            iterationCount++; // Увеличиваем счётчик на каждой итерации
+            // Увеличиваем счётчик на каждой итерации
+            iterationCount++; 
 
             Console.WriteLine("Итерация №{0}", iterationCount);
 
