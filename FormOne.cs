@@ -41,18 +41,18 @@ namespace WinFormsAndConsole
          AllocConsole();
 
          // Счётчик итераций
-         int iterationCount = 0;
+         int iteration = 0;
 
          // Бесконечный цикл
          while (true)
          {
             // Увеличиваем счётчик на каждой итерации
-            iterationCount++; 
+            iteration++; 
 
-            Console.WriteLine("Итерация №{0}", iterationCount);
+            Console.WriteLine("Итерация №{0}", iteration);
 
             // Здесь можно разместить любую логику, выполняемую на каждой итерации
-            return iterationCount;
+            return iteration;
          }
       }
 
