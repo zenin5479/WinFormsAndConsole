@@ -44,7 +44,7 @@ namespace WinFormsAndConsole
          while (true)
          {
             // Увеличиваем счётчик на каждой итерации
-            iteration++; 
+            iteration++;
 
             Console.WriteLine("Итерация №{0}", iteration);
 
@@ -64,7 +64,7 @@ namespace WinFormsAndConsole
          string result = value.ToString("F4");
 
          // Обновляем интерфейс с результатом
-         txtResult.Text = result;
+         //txtResult.Text = result;
 
          // Проверка на четность
          if (value % 2 == 0)
