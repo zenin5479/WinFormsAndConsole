@@ -51,8 +51,28 @@ namespace WinFormsAndConsole
 
             Console.WriteLine("Итерация №{0}", iteration);
 
+            // Передаем результат в другой метод
+            ProcessResult(result);
+
             // Здесь можно разместить любую логику, выполняемую на каждой итерации
             return iteration;
+         }
+      }
+
+      // Метод обработки результата
+      private static void ProcessResult(double value)
+      {
+         // Логика обработки
+         Console.WriteLine("Обрабатываем значение: {0}", value);
+
+         // Проверка на четность
+         if (value % 2 == 0)
+         {
+            Console.WriteLine("Значение четное");
+         }
+         else
+         {
+            Console.WriteLine("Значение нечетное");
          }
       }
 
