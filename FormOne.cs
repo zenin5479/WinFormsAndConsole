@@ -57,13 +57,17 @@ namespace WinFormsAndConsole
       }
 
       // Метод обработки результата
-      private static void ProcessResult(int value)
+      private void ProcessResult(int value)
       {
          // Логика обработки
          Console.WriteLine("Обрабатываем значение: {0}", value);
 
+        
+
+         string uyy = value.ToString("F4");
+
          // Обновляем интерфейс с результатом
-         //txtResult.Text = result.ToString("F4"); //
+         txtResult.Text = uyy;
 
          // Проверка на четность
          if (value % 2 == 0)
