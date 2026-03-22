@@ -51,38 +51,31 @@ namespace WinFormsAndConsole
          // Выделяем консоль
          AllocConsole();
 
-
-         // Выделяем консоль
-         AllocConsole();
-
          // Счётчик итераций
          // Используем long, чтобы избежать переполнения int
          long iteration = 0;
          // Бесконечный цикл
-         while (iteration < 1000)
+         while ()
          {
-            iteration++;
-            double result = input * iteration;
-            Console.WriteLine("Итерация: {0}, Результат: {1};", iteration, result);
+
          }
 
 
-
-
-         // Счётчик итераций
-         int iterationCount = 0;
-
          // Бесконечный цикл
-         while (true)
+         while (iteration < 1000)
          {
-
+            double result;
             try
             {
+               iteration++;
+               result = input * iteration;
+               Console.WriteLine("Итерация: {0}, Результат: {1};", iteration, result);
 
             }
             catch (Exception ex)
             {
-
+               Console.WriteLine("Ошибка: {0}", ex.Message);
+               result = double.NaN;
             }
             finally
             {
