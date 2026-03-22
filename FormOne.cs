@@ -65,7 +65,6 @@ namespace WinFormsAndConsole
                iteration++;
                result = input * iteration;
                Console.WriteLine("Итерация: {0}, Результат: {1};", iteration, result);
-
             }
             catch (Exception ex)
             {
@@ -75,7 +74,7 @@ namespace WinFormsAndConsole
 
          txtResult.Text = result.ToString(CultureInfo.InvariantCulture);
          // Освобождаем консоль
-         //FreeConsole();
+         FreeConsole();
       }
    }
 }
