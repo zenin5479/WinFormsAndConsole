@@ -37,7 +37,7 @@ namespace WinFormsAndConsole
          //ListBoxBalances.EndUpdate();
 
          // Приостанавливаем обновление компоновки для ListBox
-         listBox1.SuspendLayout();
+         txtInput.SuspendLayout();
 
          // Выполняем множество операций, которые обычно вызывают перерисовку
          for (int i = 0; i < 1000; i++)
