@@ -46,7 +46,7 @@ namespace WinFormsAndConsole
          }
 
          // Возобновляем работу и принудительно применяем все изменения
-         listBox1.ResumeLayout();
+         txtInput.ResumeLayout();
          // Опционально: принудительно вызываем немедленную перерисовку
          listBox1.PerformLayout();
 
