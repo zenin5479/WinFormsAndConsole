@@ -65,9 +65,6 @@ namespace WinFormsAndConsole
 
             // Передаем результат в другой метод
             ProcessResult(iteration);
-
-            // Здесь можно разместить любую логику, выполняемую на каждой итерации
-            //return iteration;
          }
       }
 
