@@ -37,7 +37,7 @@ namespace WinFormsAndConsole
          //ListBoxBalances.EndUpdate();
       }
 
-      private int CalculateConsole(double input)
+      private void CalculateConsole(double input)
       {
          // Выделяем консоль
          AllocConsole();
@@ -46,7 +46,7 @@ namespace WinFormsAndConsole
          int iteration = 0;
 
          // Бесконечный цикл
-         while (iteration == 10000)
+         while ((iteration = 10000) != 0)
          {
             // Увеличиваем счётчик на каждой итерации
             iteration++;
