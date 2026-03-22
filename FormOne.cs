@@ -21,7 +21,7 @@ namespace WinFormsAndConsole
       {
          // Поддерживает производительность при добавлении позиций в ListBox по одной,
          // запрещая рисование в элементе управления вплоть до вызова метода EndUpdate().
-         ListBoxBalances.BeginUpdate();
+         //ListBoxBalances.BeginUpdate();
 
          // Проверка ввода
          if (!double.TryParse(txtInput.Text, out double inputValue))
@@ -34,7 +34,7 @@ namespace WinFormsAndConsole
          // Выполняем расчёт с использованием консоли
          //double result = CalculateWithConsole(inputValue);
          CalculateConsole(inputValue);
-         ListBoxBalances.EndUpdate();
+         //ListBoxBalances.EndUpdate();
       }
 
       private int CalculateConsole(double input)
