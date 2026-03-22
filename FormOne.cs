@@ -55,7 +55,7 @@ namespace WinFormsAndConsole
          // Используем long, чтобы избежать переполнения int
          long iteration = 0;
          // Бесконечный цикл
-         while (iteration < 10000)
+         while (iteration < 1000)
          {
             iteration++;
             double result = input * iteration;
