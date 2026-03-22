@@ -42,8 +42,6 @@ namespace WinFormsAndConsole
          // Возобновляем работу и принудительно применяем все изменения
          txtInput.ResumeLayout();
 
-         txtInput.EndUpdate();
-
          // Опционально: принудительно вызываем немедленную перерисовку
          txtInput.PerformLayout();
       }
