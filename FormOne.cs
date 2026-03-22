@@ -35,8 +35,6 @@ namespace WinFormsAndConsole
          // Приостанавливаем обновление компоновки для TextBox
          txtInput.SuspendLayout();
 
-         txtInput.BeginUpdate();
-
          // Выполняем расчёт с использованием консоли
          //double result = CalculateWithConsole(inputValue);
 
