@@ -35,6 +35,21 @@ namespace WinFormsAndConsole
          //double result = CalculateWithConsole(inputValue);
          CalculateConsole(inputValue);
          //ListBoxBalances.EndUpdate();
+
+         // Приостанавливаем обновление компоновки для ListBox
+         listBox1.SuspendLayout();
+
+         // Выполняем множество операций, которые обычно вызывают перерисовку
+         for (int i = 0; i < 1000; i++)
+         {
+            listBox1.Items.Add("Элемент " + i.ToString());
+         }
+
+         // Возобновляем работу и принудительно применяем все изменения
+         listBox1.ResumeLayout();
+         // Опционально: принудительно вызываем немедленную перерисовку
+         listBox1.PerformLayout();
+
       }
 
       private void CalculateConsole(double input)
