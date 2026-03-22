@@ -79,7 +79,7 @@ namespace WinFormsAndConsole
          string result = value.ToString("F4");
 
          // Обновляем интерфейс с результатом
-         //txtResult.Text = result;
+         txtResult.Text = result;
 
          // Проверка на четность
          if (value % 2 == 0)
