@@ -58,20 +58,6 @@ namespace WinFormsAndConsole
          AllocConsole();
 
          // Счётчик итераций
-         int iteration = 0;
-
-         // Бесконечный цикл
-         while (iteration < 10000)
-         {
-            // Увеличиваем счётчик на каждой итерации
-            iteration++;
-
-            Console.WriteLine("Итерация №{0}", iteration);
-
-            // Передаем результат в другой метод
-            ProcessResult(iteration);
-         }
-
          // Используем long, чтобы избежать переполнения int
          long iteration = 0;
          // Бесконечный цикл
