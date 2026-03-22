@@ -36,7 +36,6 @@ namespace WinFormsAndConsole
          txtInput.SuspendLayout();
 
          //ListBoxBalances.BeginUpdate();
-        
 
          // Выполняем расчёт с использованием консоли
          //double result = CalculateWithConsole(inputValue);
