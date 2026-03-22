@@ -32,13 +32,15 @@ namespace WinFormsAndConsole
             return;
          }
 
+         // Приостанавливаем обновление компоновки для TextBox
+         txtInput.SuspendLayout();
+
          // Выполняем расчёт с использованием консоли
          //double result = CalculateWithConsole(inputValue);
          CalculateConsole(inputValue);
 
 
-         // Приостанавливаем обновление компоновки для ListBox
-         txtInput.SuspendLayout();
+        
 
          // Выполняем множество операций, которые обычно вызывают перерисовку
 
