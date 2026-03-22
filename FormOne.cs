@@ -46,7 +46,7 @@ namespace WinFormsAndConsole
          int iteration = 0;
 
          // Бесконечный цикл
-         while (true)
+         while (iteration == 10000)
          {
             // Увеличиваем счётчик на каждой итерации
             iteration++;
