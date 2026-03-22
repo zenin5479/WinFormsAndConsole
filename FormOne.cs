@@ -36,8 +36,6 @@ namespace WinFormsAndConsole
          txtInput.SuspendLayout();
 
          // Выполняем расчёт с использованием консоли
-         //double result = CalculateWithConsole(inputValue);
-
          // Выполняем множество операций, которые обычно вызывают перерисовку
          CalculateConsole(inputValue);
 
