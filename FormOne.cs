@@ -45,7 +45,6 @@ namespace WinFormsAndConsole
          txtInput.ResumeLayout();
          // Опционально: принудительно вызываем немедленную перерисовку
          txtInput.PerformLayout();
-
       }
 
       private void CalculateConsole(double input)
