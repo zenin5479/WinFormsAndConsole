@@ -71,6 +71,16 @@ namespace WinFormsAndConsole
             // Передаем результат в другой метод
             ProcessResult(iteration);
          }
+
+         // Используем long, чтобы избежать переполнения int
+         long iteration = 0;
+         // Бесконечный цикл
+         while (true)
+         {
+            iteration++;
+            double result = input * iteration;
+            Console.WriteLine("Итерация: {0}, Результат: {1};", iteration, result);
+         }
       }
 
       // Метод обработки результата
