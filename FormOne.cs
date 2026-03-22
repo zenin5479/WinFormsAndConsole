@@ -35,7 +35,7 @@ namespace WinFormsAndConsole
          // Приостанавливаем обновление компоновки для TextBox
          txtInput.SuspendLayout();
 
-         //ListBoxBalances.BeginUpdate();
+         txtInput.BeginUpdate();
 
          // Выполняем расчёт с использованием консоли
          //double result = CalculateWithConsole(inputValue);
@@ -46,8 +46,7 @@ namespace WinFormsAndConsole
          // Возобновляем работу и принудительно применяем все изменения
          txtInput.ResumeLayout();
 
-         //ListBoxBalances.EndUpdate();
-
+         txtInput.EndUpdate();
 
          // Опционально: принудительно вызываем немедленную перерисовку
          txtInput.PerformLayout();
