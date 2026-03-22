@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -54,28 +55,27 @@ namespace WinFormsAndConsole
          // Счётчик итераций
          // Используем long, чтобы избежать переполнения int
          long iteration = 0;
-        
+         double result = 0;
+
          // Бесконечный цикл
          while (iteration < 1000)
          {
-            double result;
             try
             {
                iteration++;
-               result = input * iteration;
+                result = input * iteration;
                Console.WriteLine("Итерация: {0}, Результат: {1};", iteration, result);
+
             }
             catch (Exception ex)
             {
                Console.WriteLine("Ошибка: {0}", ex.Message);
-               result = double.NaN;
-            }
-            finally
-            {
-               // Освобождаем консоль
-               FreeConsole();
             }
          }
+
+         txtResult.Text = result.ToString(CultureInfo.InvariantCulture);
+         // Освобождаем консоль
+         //FreeConsole();
       }
    }
 }
