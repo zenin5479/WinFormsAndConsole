@@ -19,9 +19,10 @@ namespace WinFormsAndConsole
 
       private void btnCalculate_Click(object sender, EventArgs e)
       {
-         // Поддерживает производительность при добавлении позиций в TextBox по одной,
+         // Поддерживает производительность при добавлении позиций в ListBox по одной,
          // запрещая рисование в элементе управления вплоть до вызова метода EndUpdate().
          //ListBoxBalances.BeginUpdate();
+         //ListBoxBalances.EndUpdate();
 
          // Проверка ввода
          if (!double.TryParse(txtInput.Text, out double inputValue))
@@ -34,13 +35,13 @@ namespace WinFormsAndConsole
          // Выполняем расчёт с использованием консоли
          //double result = CalculateWithConsole(inputValue);
          CalculateConsole(inputValue);
-         //ListBoxBalances.EndUpdate();
+
 
          // Приостанавливаем обновление компоновки для ListBox
          txtInput.SuspendLayout();
 
          // Выполняем множество операций, которые обычно вызывают перерисовку
-        
+
 
          // Возобновляем работу и принудительно применяем все изменения
          txtInput.ResumeLayout();
