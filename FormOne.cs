@@ -40,10 +40,7 @@ namespace WinFormsAndConsole
          txtInput.SuspendLayout();
 
          // Выполняем множество операций, которые обычно вызывают перерисовку
-         for (int i = 0; i < 1000; i++)
-         {
-            txtInput.Text = "Элемент " + i;
-         }
+        
 
          // Возобновляем работу и принудительно применяем все изменения
          txtInput.ResumeLayout();
