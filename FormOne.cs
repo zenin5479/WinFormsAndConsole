@@ -54,13 +54,7 @@ namespace WinFormsAndConsole
          // Счётчик итераций
          // Используем long, чтобы избежать переполнения int
          long iteration = 0;
-         // Бесконечный цикл
-         while ()
-         {
-
-         }
-
-
+        
          // Бесконечный цикл
          while (iteration < 1000)
          {
@@ -81,14 +75,6 @@ namespace WinFormsAndConsole
                // Освобождаем консоль
                FreeConsole();
             }
-
-
-
-
-
-
-
-
          }
       }
    }
