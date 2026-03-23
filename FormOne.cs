@@ -63,7 +63,7 @@ namespace WinFormsAndConsole
             try
             {
                iteration++;
-               result = input * input;
+               result = input * (iteration * iteration);
                Console.WriteLine("Итерация: {0}, Результат: {1};", iteration, result);
             }
             catch (Exception ex)
