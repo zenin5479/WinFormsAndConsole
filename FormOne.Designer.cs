@@ -66,7 +66,7 @@
          txtInput.Multiline = true;
          txtInput.Name = "txtInput";
          txtInput.PlaceholderText = "Введите число...";
-         txtInput.Size = new System.Drawing.Size(200, 23);
+         txtInput.Size = new System.Drawing.Size(250, 23);
          txtInput.TabIndex = 4;
          // 
          // FormOne
