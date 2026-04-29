@@ -37,7 +37,7 @@
          // lblResult
          // 
          lblResult.AutoSize = true;
-         lblResult.Location = new System.Drawing.Point(12, 86);
+         lblResult.Location = new System.Drawing.Point(48, 88);
          lblResult.Name = "lblResult";
          lblResult.Size = new System.Drawing.Size(63, 15);
          lblResult.TabIndex = 7;
@@ -45,7 +45,7 @@
          // 
          // btnCalculate
          // 
-         btnCalculate.Location = new System.Drawing.Point(21, 60);
+         btnCalculate.Location = new System.Drawing.Point(48, 60);
          btnCalculate.Name = "btnCalculate";
          btnCalculate.Size = new System.Drawing.Size(100, 23);
          btnCalculate.TabIndex = 6;
@@ -55,7 +55,7 @@
          // 
          // txtResult
          // 
-         txtResult.Location = new System.Drawing.Point(12, 113);
+         txtResult.Location = new System.Drawing.Point(22, 106);
          txtResult.Name = "txtResult";
          txtResult.Size = new System.Drawing.Size(250, 23);
          txtResult.TabIndex = 5;
@@ -66,7 +66,7 @@
          txtInput.Multiline = true;
          txtInput.Name = "txtInput";
          txtInput.PlaceholderText = "Введите число...";
-         txtInput.Size = new System.Drawing.Size(250, 23);
+         txtInput.Size = new System.Drawing.Size(260, 23);
          txtInput.TabIndex = 4;
          // 
          // FormOne
