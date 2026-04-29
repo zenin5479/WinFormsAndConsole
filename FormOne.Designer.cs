@@ -63,6 +63,7 @@
          // txtInput
          // 
          txtInput.Location = new System.Drawing.Point(12, 12);
+         txtInput.Multiline = true;
          txtInput.Name = "txtInput";
          txtInput.PlaceholderText = "Введите число...";
          txtInput.Size = new System.Drawing.Size(200, 23);
