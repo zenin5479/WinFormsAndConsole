@@ -28,7 +28,7 @@ namespace WinFormsAndConsole
          // Проверка ввода
          if (!double.TryParse(txtInput.Text, out double inputValue))
          {
-            MessageBox.Show("Пожалуйста, введите корректное число!", "Ошибка",
+            MessageBox.Show(@"Пожалуйста, введите корректное число!", "Ошибка",
                MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
          }
