@@ -55,7 +55,7 @@
          // 
          // txtResult
          // 
-         txtResult.Location = new System.Drawing.Point(12, 85);
+         txtResult.Location = new System.Drawing.Point(12, 100);
          txtResult.Name = "txtResult";
          txtResult.Size = new System.Drawing.Size(250, 23);
          txtResult.TabIndex = 5;
@@ -73,7 +73,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(274, 123);
+         ClientSize = new System.Drawing.Size(274, 148);
          Controls.Add(lblResult);
          Controls.Add(btnCalculate);
          Controls.Add(txtResult);
