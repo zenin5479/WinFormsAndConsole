@@ -45,7 +45,7 @@
          // 
          // btnCalculate
          // 
-         btnCalculate.Location = new System.Drawing.Point(48, 60);
+         btnCalculate.Location = new System.Drawing.Point(12, 41);
          btnCalculate.Name = "btnCalculate";
          btnCalculate.Size = new System.Drawing.Size(100, 23);
          btnCalculate.TabIndex = 6;
