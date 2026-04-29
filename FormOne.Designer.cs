@@ -37,7 +37,7 @@
          // lblResult
          // 
          lblResult.AutoSize = true;
-         lblResult.Location = new System.Drawing.Point(48, 88);
+         lblResult.Location = new System.Drawing.Point(12, 67);
          lblResult.Name = "lblResult";
          lblResult.Size = new System.Drawing.Size(63, 15);
          lblResult.TabIndex = 7;
@@ -55,7 +55,7 @@
          // 
          // txtResult
          // 
-         txtResult.Location = new System.Drawing.Point(22, 106);
+         txtResult.Location = new System.Drawing.Point(12, 85);
          txtResult.Name = "txtResult";
          txtResult.Size = new System.Drawing.Size(250, 23);
          txtResult.TabIndex = 5;
