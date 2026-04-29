@@ -77,6 +77,7 @@
          Controls.Add(btnCalculate);
          Controls.Add(txtResult);
          Controls.Add(txtInput);
+         MaximizeBox = false;
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "WinForms с консольными расчётами";
