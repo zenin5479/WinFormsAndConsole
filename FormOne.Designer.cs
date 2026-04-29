@@ -55,7 +55,7 @@
          // 
          // txtResult
          // 
-         txtResult.Location = new System.Drawing.Point(12, 100);
+         txtResult.Location = new System.Drawing.Point(12, 113);
          txtResult.Name = "txtResult";
          txtResult.Size = new System.Drawing.Size(250, 23);
          txtResult.TabIndex = 5;
