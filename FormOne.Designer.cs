@@ -37,7 +37,7 @@
          // lblResult
          // 
          lblResult.AutoSize = true;
-         lblResult.Location = new System.Drawing.Point(12, 67);
+         lblResult.Location = new System.Drawing.Point(12, 86);
          lblResult.Name = "lblResult";
          lblResult.Size = new System.Drawing.Size(63, 15);
          lblResult.TabIndex = 7;
@@ -45,7 +45,7 @@
          // 
          // btnCalculate
          // 
-         btnCalculate.Location = new System.Drawing.Point(12, 41);
+         btnCalculate.Location = new System.Drawing.Point(21, 60);
          btnCalculate.Name = "btnCalculate";
          btnCalculate.Size = new System.Drawing.Size(100, 23);
          btnCalculate.TabIndex = 6;
@@ -73,7 +73,7 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(274, 148);
+         ClientSize = new System.Drawing.Size(284, 141);
          Controls.Add(lblResult);
          Controls.Add(btnCalculate);
          Controls.Add(txtResult);
