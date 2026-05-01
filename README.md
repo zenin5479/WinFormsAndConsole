@@ -1,1 +1,1 @@
-# Console в WinForms 
+# Двусторонний обмен между Windows Forms и консолью 
